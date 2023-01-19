@@ -1,0 +1,38 @@
+*{
+    font-family:verdana;
+    margin:0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display:flex;
+    background-color: white;
+}
+
+.box{
+    height: 100px;
+    width: 320px;
+}
+ /*the bigger the value the more the shrink*/
+/* the are depend on the siblings,shrink it's rarely use */
+ .one{
+    background: rgb(62, 62, 177);
+    flex-shrink: 1;
+}
+.two{
+    background: rgb(19, 142, 91);
+    flex-shrink: 2;
+}
+.three{
+    background: rgb(229, 92, 18);
+    flex-shrink: 3;
+}

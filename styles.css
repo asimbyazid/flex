@@ -1,0 +1,43 @@
+*{
+    font-family:verdana;
+    margin:0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+}
+
+#blocks{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#blocks div{
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;
+    /* background: #ccc; */
+}
+
+.one{
+    background: rgb(62, 62, 177);
+    order: 3;
+}
+.two{
+    background: rgb(19, 142, 91);
+    order: 0;
+}
+.three{
+    background: rgb(229, 92, 18);
+    order: 2;
+}
+.four{
+    background: rgb(229, 92, 18);
+    order: 0;
+}

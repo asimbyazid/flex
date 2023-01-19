@@ -1,0 +1,37 @@
+*{
+    font-family:verdana;
+    margin:0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+}
+
+.flex-container{
+    display:flex;
+    background-color: white;
+}
+
+.box{
+    height: 100px;
+    min-width: 100px;
+    /* flex-grow: 1; */
+}
+
+.one{
+    background: rgb(62, 62, 177);
+    flex-grow: 1;
+}
+.two{
+    background: rgb(19, 142, 91);
+    flex-grow: 1;
+}
+.three{
+    background: rgb(229, 92, 18);
+    flex-grow: 1;
+}
